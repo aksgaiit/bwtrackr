@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">bwTrackr</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_con_button">Start</string>
+    <string name="title_export">Backup</string>
+    <string name="title_stop_conn">Stop</string>
+    <string name="label_sessionInfo">Session</string>
+    <string name="label_sigqual">Qual</string>
+    <string name="label_delete">Delete</string>
+    <string name="label_time">Time</string>
+    <string name="label_camCheck">use cam?</string>
+    <string name="label_location">Loc</string>
+    <string name="label_tap">Tap</string>
+    <string name="title_checkLoc">Test GPS</string>
+    <string name="title_checkingLoc">checkng..</string>
+    <string name="title_remove_alert">confirm deletion</string>
+    <string name="msg_removeall_alert">really remove all the sessions?</string>
+    <string name="msg_remove_alert">really remove a session %s?</string>
+    <string name="title_activity_manager">ManagerActivity</string>
+    <string name="title_activity_map">bwTracker-map</string>
+    <string name="title_restore">Restore</string>
+    <string name="title_infopanel">Take a glance at the time..</string>
+    <string name="title_video_thumbnail">Video Thumbnail</string>
+    <string name="menu_import">Import</string>
+    <string name="msg_remove_selected_alert">really remove selected session data?</string>
+    <string name="title_data_mgr">Manager</string>
+    <string name="title_startserver">S.Server</string>
+    <string name="title_checkcam">test cam</string>
+    <string name="menu_cam_settings">Camera Preference</string>
+    <string name="pref_cam_addr">address</string>
+    <string name="pref_cam_port">port</string>
+    <string name="pref_cam_command">command</string>
+    <string name="pref_check_use_wificam">Use Wifi Camera?</string>
+    <string name="msg_remove_selected_cache">really want to remove the cache of selected sessions?</string>
+    <string name="title_deleteCache">d.Cache</string>
+    <string name="tile_activity_webvis">View By Brain</string>
+    <string name="menu_srv_settings">Server Preference</string>
+    <string name="label_cam_record_size">Record Size</string>
+    <string name="title_ask_comment">Add comments if any!</string>
+    <string name="label_done">Done</string>
+    <string name="msg_ask_reconnect">Check your sensor and bluetooh, pls.</string>
+    <string name="pref_cam_builtin">Builtin</string>
+    <string name="pref_cam_wifi">WiFi</string>
+
+</resources>

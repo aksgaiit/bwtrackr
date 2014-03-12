@@ -1,0 +1,31 @@
+bwtmapGadget:
+  caption:
+    ja_JP: "脳波マップ"
+  description:
+    ja_JP: "脳波と一緒に記録した思い出"
+  component: [bwt, mapGadget]
+bwtmapGadget_my:
+  caption:
+    ja_JP: "脳波マップ(自分用)"
+  description:
+    ja_JP: "脳波と一緒に記録した思い出(自分のみ)"
+  component: [bwt, mapGadget_my]
+bwtheatmapGadget:
+  caption:
+    ja_JP: "脳波温度地図"
+  description:
+    ja_JP: "脳波の全体温度"
+  component: [bwt, heatmapGadget]
+bwpubtheatmapGadget:
+  caption:
+    ja_JP: "雰囲気地図"
+  description:
+    ja_JP: "匿名雰囲気"
+  component: [bwt, publicHeatmapGadget]
+bwpubmentaltmapGadget:
+  caption:
+    ja_JP: "メンタル地図"
+  description:
+    ja_JP: "匿名メンタル地図"
+  component: [bwt, publicMentalmapGadget]
+

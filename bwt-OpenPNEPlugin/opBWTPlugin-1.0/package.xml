@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.0" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+    http://pear.php.net/dtd/tasks-1.0.xsd
+    http://pear.php.net/dtd/package-2.0
+    http://pear.php.net/dtd/package-2.0.xsd">
+ <name>opBWTPlugin</name>
+ <channel>plugins.openpne.jp</channel>
+ <summary>Gadgets to share the media recorded with bw signals</summary>
+ <description>Gadget plugin for bwtracker and related services</description>
+ <lead>
+  <name>_ak</name>
+  <user>_ak</user>
+  <email />
+  <active>yes</active>
+ </lead>
+ <date>2013-10-15</date>
+ <time>01:02:38</time>
+ <version>
+  <release>1.0</release>
+  <api>1.0</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license>MIT</license>
+ <notes>
+Plugin for bwTracker and related devices
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+	<file baseinstalldir="/" name="package.xml" role="data" />
+	<file baseinstalldir="/" name="apps/api/modules/bwdata/actions/actions.class.php" role="data" />
+	<file baseinstalldir="/" name="apps/api/modules/bwdata/config/filters.yml" role="data" />
+	<file baseinstalldir="/" name="apps/api/modules/bwdata/templates/searchSuccess.php" role="data" />
+	<file baseinstalldir="/" name="apps/api/modules/bwpub/actions/actions.class.php" role="data" />
+	<file baseinstalldir="/" name="apps/pc_backend/modules/opBWTPlugin/actions/actions.class.php" role="data" />
+	<file baseinstalldir="/" name="apps/pc_backend/modules/opBWTPlugin/templates/indexSuccess.php" role="data" />
+	<file baseinstalldir="/" name="apps/pc_frontend/modules/bwt/actions/actions.class.php" role="data" />
+	<file baseinstalldir="/" name="apps/pc_frontend/modules/bwt/actions/components.class.php" role="data" />
+	<file baseinstalldir="/" name="apps/pc_frontend/modules/bwt/config/security.yml" role="data" />
+	<file baseinstalldir="/" name="apps/pc_frontend/modules/bwt/templates/authProxySuccess.php" role="data" />
+	<file baseinstalldir="/" name="apps/pc_frontend/modules/bwt/templates/_heatmapGadget.php" role="data" />
+	<file baseinstalldir="/" name="apps/pc_frontend/modules/bwt/templates/_mapGadget.php" role="data" />
+	<file baseinstalldir="/" name="apps/pc_frontend/modules/bwt/templates/_mapGadget_core.php" role="data" />
+	<file baseinstalldir="/" name="apps/pc_frontend/modules/bwt/templates/_mapGadget_my.php" role="data" />
+	<file baseinstalldir="/" name="apps/pc_frontend/modules/bwt/templates/_publicHeatmapGadget.php" role="data" />
+	<file baseinstalldir="/" name="apps/pc_frontend/modules/bwt/templates/_publicMentalmapGadget.php" role="data" />
+	<file baseinstalldir="/" name="config/gadget.yml" role="data" />
+	<file baseinstalldir="/" name="lib/form/opBWTPluginConfigurationForm.class.php" role="data" />
+	<file baseinstalldir="/" name="lib/util/opBWTPluginUtil.php" role="data" />
+	<file baseinstalldir="/" name="web/css/styles.css" role="data" />
+	<file baseinstalldir="/" name="web/js/d3.v3.min.js" role="data" />
+	<file baseinstalldir="/" name="web/js/moment.min.js" role="data" />
+	<file baseinstalldir="/" name="web/js/lang/ja.js" role="data" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.3</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+</package>
